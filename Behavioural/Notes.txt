@@ -1,1 +1,15 @@
 make some communication between 2 objects
+
+observer pattern -> 
+
+Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+
+Object that watch on the state of another object are called Observer(subscriber) 
+
+The object that is being watched is called Subject(publisher)
+
+Subject contains a list of observers to notify of any change in it’s state, so it should provide methods using which observers can register and unregister themselves.
+
+Subject also contain a method to notify all the observers of any change.
+
+Observer should have a method to set the object to watch and another method that will be used by Subject to notify them of any updates.
