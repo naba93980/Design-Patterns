@@ -1,1 +1,3 @@
 compose one object into other.
+
+composite - one object can have multiple objects, recursively and whatever operation u perform in leaf object should also be performed in composite objects.
