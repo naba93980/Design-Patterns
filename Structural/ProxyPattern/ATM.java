@@ -1,6 +1,6 @@
 public class ATM implements AccountService {
 	
-	private AccountService bankAccount;
+	private BankAccount bankAccount;
 	
 	public ATM() {
 		this.bankAccount = new BankAccount();
